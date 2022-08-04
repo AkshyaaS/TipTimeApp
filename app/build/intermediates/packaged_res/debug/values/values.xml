@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="lime">#c6ff00</color>
+    <color name="lime_dark">#90cc00</color>
+    <color name="lime_light">#fdff58</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#ff5252</color>
+    <color name="red_dark">#c50e29</color>
+    <color name="red_light">#ff867f</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="min_text_height">48dp</dimen>
+    <string name="amazing_20">Amazing(20%)</string>
+    <string name="app_name">Tip Time</string>
+    <string name="calculate">Calculate</string>
+    <string name="cost_of_service">Cost of service</string>
+    <string name="good_18">Good(18%)</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="ok_15">OK(15%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string formatted="true" name="tip_amount">Tip Amount: %s</string>
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red_light</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/lime</item>
+        <item name="colorSecondaryVariant">@color/lime_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
+    </style>
+    <style name="Widget.TipTime.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="Widget.TipTime.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">@dimen/min_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="Widget.TipTime.TextView" parent="Widget.MaterialComponents.TextView">
+    <item name="android:minHeight">@dimen/min_text_height</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+</style>
+</resources>
