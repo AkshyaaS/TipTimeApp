@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.tiptime.app-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "com.example.tiptime.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aksha\\.gradle\\daemon\\7.3.3\\com.example.tiptime.app-mergeDebugResources-25:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\aksha\\.gradle\\daemon\\7.3.3\\com.example.tiptime.app-main-28:\\layout\\activity_main.xml"
+    }
+]
